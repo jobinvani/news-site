@@ -310,11 +310,32 @@ footer{
   outline: 1px solid slategrey;
 }
 
+.ft-btns ul li.active a i svg use:last-child {
+    visibility: visible;
+    opacity: 1;
+    transition: all 400ms;
+}
+
+
 @media (min-width: 1400px){
   .container{
     max-width: 992px;
   }
 }
+@media(max-width: 575.98px){
+.ft-btns ul li a i {
+    
+    height: 25px;
+}
+.ft-btns ul li a i svg {
+    width: 100%;
+    height: 27px;
+    transition: all 400ms;
+}
+}
+
+
+
 @media(max-width: 374.98px){
   .head-nav a {
    

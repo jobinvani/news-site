@@ -316,7 +316,9 @@ footer{
     transition: all 400ms;
 }
 
-
+.ft-btns ul li.active a span {
+    color: #fb8226;
+}
 @media (min-width: 1400px){
   .container{
     max-width: 992px;
@@ -325,11 +327,11 @@ footer{
 @media(max-width: 575.98px){
 .ft-btns ul li a i {
     
-    height: 25px;
+    height: 21px;
 }
 .ft-btns ul li a i svg {
     width: 100%;
-    height: 27px;
+    height: 21px;
     transition: all 400ms;
 }
 }
